@@ -1,31 +1,31 @@
-import OmniFood from "../assets/imgs/Omnifood.jpg";
-import OutDoors from "../assets/imgs/Natours.jpg";
-import Movie from "../assets/imgs/MoviesTrailer.jpg";
-import Todo from "../assets/imgs/Todo.jpg";
+import Dragon from "../assets/imgs/Dragon.jpg";
+import Employees from "../assets/imgs/Employees.jpg";
+import Marvel from "../assets/imgs/Marvel.jpg";
+import Clothing from "../assets/imgs/Clothing.jpg";
 
 export const projectsData = [
   {
-    img: OmniFood,
-    name: "Omnifood",
-    github: "https://github.com/aljuraysiH/Omnifood",
-    link: "https://omnifood-aljuraysi.netlify.app/",
+    img: Dragon,
+    name: "Dragon_Game",
+    github: "https://github.com/AleksandrMyagkiy/DragonGame",
+    link: "https://aleksandrmyagkiy.github.io/DragonGame/",
   },
   {
-    img: OutDoors,
-    name: "Natours",
-    github: "https://github.com/aljuraysiH/Natours",
-    link: "https://natours-aljuraysi.netlify.app/",
+    img: Employees,
+    name: "Employees",
+    github: "https://github.com/AleksandrMyagkiy/EMPLOYEES",
+    link: "https://employees123.herokuapp.com/",
   },
   {
-    img: Todo,
-    name: "Todo",
-    github: "https://github.com/aljuraysiH/Todo",
-    link: "https://todo-hamad.netlify.app/",
+    img: Clothing,
+    name: "E-commerce",
+    github: "https://github.com/AleksandrMyagkiy/crwn-clothing",
+    link: "https://deluxe-bonbon-e45760.netlify.app/",
   },
   {
-    img: Movie,
-    name: "Movie Trailer",
-    github: "https://github.com/aljuraysiH/Movies",
-    link: "https://movies-trailer.netlify.app/",
+    img: Marvel,
+    name: "Marvel",
+    github: "https://github.com/AleksandrMyagkiy/MARVEL",
+    link: "http://marvel.dvorvorot.com.ua/",
   },
 ];
