@@ -1,6 +1,6 @@
 import styles from "./About.module.scss";
 import { useEffect } from "react";
-import CV from "../../assets/CV Aleksandr Myagkiy.pdf";
+import CV from "../../assets/Oleksandr_Miahkyi_CV.pdf";
 import picture from "../../assets/imgs/avatar.png";
 import AOS from "aos";
 import { useTranslation } from "react-i18next";
