@@ -7,13 +7,13 @@ export const projectsData = [
   {
     img: Dragon,
     name: "Dragon_Game",
-    github: "https://github.com/AleksandrMyagkiy/DragonGame",
+    github: "https://github.com/AleksandrMyagkiy",
     link: "https://aleksandrmyagkiy.github.io/DragonGame/",
   },
   {
     img: Employees,
     name: "Employees",
-    github: "https://github.com/AleksandrMyagkiy/EMPLOYEES",
+    github: "https://github.com/AleksandrMyagkiy",
     link: "https://employees123.herokuapp.com/",
   },
   {
