@@ -1,5 +1,5 @@
 import To_Do_List from "../assets/imgs/To_Do_List.jpg";
-import Employees from "../assets/imgs/Employees.jpg";
+import Dragon from "../assets/imgs/Dragon.jpg";
 import Marvel from "../assets/imgs/Marvel.jpg";
 import Clothing from "../assets/imgs/Clothing.jpg";
 
@@ -23,9 +23,9 @@ export const projectsData = [
     link: "https://monumental-gumdrop-8ab571.netlify.app/",
   },
   {
-    img: Employees,
-    name: "Employees",
+    img: Dragon,
+    name: "Dragon_Game",
     github: "https://github.com/AleksandrMyagkiy",
-    link: "https://employees123.herokuapp.com/",
+    link: "https://aleksandrmyagkiy.github.io/DragonGame/",
   },
 ];
