@@ -26,6 +26,6 @@ export const projectsData = [
     img: Marvel,
     name: "Marvel",
     github: "https://github.com/AleksandrMyagkiy/MARVEL",
-    link: "http://marvel.dvorvorot.com.ua/",
+    link: "https://lighthearted-melomakarona-bd30de.netlify.app/",
   },
 ];
