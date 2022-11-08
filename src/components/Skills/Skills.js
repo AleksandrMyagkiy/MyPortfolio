@@ -1,6 +1,21 @@
 import { useEffect } from "react";
 import styles from "./Skills.module.scss";
-import { HtmlIcon, CssIcon, JavaScriptIcon, ReactIcon, ReduxIcon, FirebaseIcon, NodeJsIcon, ExpressIcon } from "../SVG/Icons";
+
+import { 
+  HtmlIcon, 
+  CssIcon, 
+  JavaScriptIcon, 
+  ReactIcon, 
+  ReduxIcon, 
+  FirebaseIcon, 
+  NodeJsIcon, 
+  ExpressIcon, 
+  MongoDBIcon, 
+  GraphQLIcon, 
+  Bootstrap,
+  TypeScript 
+} from "../SVG/Icons";
+
 import AOS from "aos";
 import { useTranslation } from "react-i18next";
 
@@ -49,6 +64,22 @@ const About = ({ id }) => {
         <figure className={styles.card}>
           <span>Express</span>
           <ExpressIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>MongoDB</span>
+          <MongoDBIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>GraphQL</span>
+          <GraphQLIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>Bootstrap</span>
+          <Bootstrap />
+        </figure>
+        <figure className={styles.card}>
+          <span>TypeScript</span>
+          <TypeScript />
         </figure>
       </section>
     </section>
