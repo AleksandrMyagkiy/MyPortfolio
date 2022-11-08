@@ -12,8 +12,16 @@ import {
   ExpressIcon, 
   MongoDBIcon, 
   GraphQLIcon, 
-  Bootstrap,
-  TypeScript 
+  BootstrapIcon,
+  TypeScriptIcon,
+  PostmanIcon,
+  ReactRouterIcon,
+  NextJsIcon,
+  StripeIcon,
+  GitIcon,
+  JQueryIcon,
+  GitHubIcon,
+  LessIcon 
 } from "../SVG/Icons";
 
 import AOS from "aos";
@@ -75,11 +83,43 @@ const About = ({ id }) => {
         </figure>
         <figure className={styles.card}>
           <span>Bootstrap</span>
-          <Bootstrap />
+          <BootstrapIcon />
         </figure>
         <figure className={styles.card}>
           <span>TypeScript</span>
-          <TypeScript />
+          <TypeScriptIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>Postman</span>
+          <PostmanIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>ReactRouter</span>
+          <ReactRouterIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>NextJs</span>
+          <NextJsIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>Stripe</span>
+          <StripeIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>Git</span>
+          <GitIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>JQuery</span>
+          <JQueryIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>GitHub</span>
+          <GitHubIcon />
+        </figure>
+        <figure className={styles.card}>
+          <span>Less</span>
+          <LessIcon />
         </figure>
       </section>
     </section>
